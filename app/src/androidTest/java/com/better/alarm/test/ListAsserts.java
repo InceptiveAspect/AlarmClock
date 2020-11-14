@@ -1,4 +1,4 @@
-package com.better.alarm.test;
+package com.ias.alarm.test;
 
 import android.view.View;
 import android.widget.ListAdapter;

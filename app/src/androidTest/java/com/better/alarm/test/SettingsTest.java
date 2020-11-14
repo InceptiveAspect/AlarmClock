@@ -1,4 +1,4 @@
-package com.better.alarm.test;
+package com.ias.alarm.test;
 
 import androidx.test.espresso.action.GeneralClickAction;
 import androidx.test.espresso.action.GeneralLocation;
@@ -7,8 +7,8 @@ import androidx.test.espresso.action.Tap;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.rule.ActivityTestRule;
 
-import com.better.alarm.R;
-import com.better.alarm.presenter.SettingsActivity;
+import com.ias.alarm.R;
+import com.ias.alarm.presenter.SettingsActivity;
 
 import org.junit.Rule;
 import org.junit.Test;

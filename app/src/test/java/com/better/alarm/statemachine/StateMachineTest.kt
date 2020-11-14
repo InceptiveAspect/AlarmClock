@@ -1,7 +1,7 @@
-package com.better.alarm.statemachine
+package com.ias.alarm.statemachine
 
-import com.better.alarm.logger.Logger
-import com.better.alarm.logger.SysoutLogWriter
+import com.ias.alarm.logger.Logger
+import com.ias.alarm.logger.SysoutLogWriter
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 

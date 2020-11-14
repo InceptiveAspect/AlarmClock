@@ -1,7 +1,7 @@
-package com.better.alarm.model
+package com.ias.alarm.model
 
 import android.content.Context
-import com.better.alarm.R
+import com.ias.alarm.R
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 import org.mockito.Mockito.`when`

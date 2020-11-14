@@ -1,13 +1,13 @@
-package com.better.alarm.test;
+package com.ias.alarm.test;
 
 
 import androidx.test.espresso.ViewInteraction;
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import com.better.alarm.R;
-import com.better.alarm.configuration.ContainerKt;
-import com.better.alarm.presenter.AlarmsListActivity;
+import com.ias.alarm.R;
+import com.ias.alarm.configuration.ContainerKt;
+import com.ias.alarm.presenter.AlarmsListActivity;
 
 import org.junit.After;
 import org.junit.Before;

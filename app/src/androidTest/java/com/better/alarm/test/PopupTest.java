@@ -1,4 +1,4 @@
-package com.better.alarm.test;
+package com.ias.alarm.test;
 
 import android.content.Intent;
 import android.provider.AlarmClock;
@@ -6,20 +6,20 @@ import android.provider.AlarmClock;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
 
-import com.better.alarm.R;
-import com.better.alarm.alert.AlarmAlertFullScreen;
-import com.better.alarm.configuration.ContainerKt;
-import com.better.alarm.configuration.InjectKt;
-import com.better.alarm.configuration.Store;
-import com.better.alarm.interfaces.Intents;
-import com.better.alarm.model.AlarmSetter;
-import com.better.alarm.model.AlarmValue;
-import com.better.alarm.model.AlarmsReceiver;
-import com.better.alarm.model.CalendarType;
-import com.better.alarm.presenter.AlarmsListActivity;
-import com.better.alarm.presenter.HandleSetAlarm;
-import com.better.alarm.presenter.TransparentActivity;
-import com.better.alarm.util.Optional;
+import com.ias.alarm.R;
+import com.ias.alarm.alert.AlarmAlertFullScreen;
+import com.ias.alarm.configuration.ContainerKt;
+import com.ias.alarm.configuration.InjectKt;
+import com.ias.alarm.configuration.Store;
+import com.ias.alarm.interfaces.Intents;
+import com.ias.alarm.model.AlarmSetter;
+import com.ias.alarm.model.AlarmValue;
+import com.ias.alarm.model.AlarmsReceiver;
+import com.ias.alarm.model.CalendarType;
+import com.ias.alarm.presenter.AlarmsListActivity;
+import com.ias.alarm.presenter.HandleSetAlarm;
+import com.ias.alarm.presenter.TransparentActivity;
+import com.ias.alarm.util.Optional;
 
 import org.junit.Before;
 import org.junit.Ignore;

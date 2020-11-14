@@ -1,11 +1,11 @@
-package com.better.alarm
+package com.ias.alarm
 
-import com.better.alarm.background.KlaxonPlugin
-import com.better.alarm.background.Player
-import com.better.alarm.background.PluginAlarmData
-import com.better.alarm.background.TargetVolume
-import com.better.alarm.logger.Logger
-import com.better.alarm.model.Alarmtone
+import com.ias.alarm.background.KlaxonPlugin
+import com.ias.alarm.background.Player
+import com.ias.alarm.background.PluginAlarmData
+import com.ias.alarm.background.TargetVolume
+import com.ias.alarm.logger.Logger
+import com.ias.alarm.model.Alarmtone
 import io.reactivex.Observable
 import io.reactivex.schedulers.TestScheduler
 import org.assertj.core.api.Assertions.assertThat

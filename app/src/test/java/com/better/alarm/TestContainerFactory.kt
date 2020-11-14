@@ -1,11 +1,11 @@
-package com.better.alarm
+package com.ias.alarm
 
 import android.database.Cursor
-import com.better.alarm.model.AlarmStore
-import com.better.alarm.model.Calendars
-import com.better.alarm.model.ContainerFactory
-import com.better.alarm.persistance.PersistingContainerFactory
-import com.better.alarm.stores.InMemoryRxDataStoreFactory.Companion.inMemoryRxDataStore
+import com.ias.alarm.model.AlarmStore
+import com.ias.alarm.model.Calendars
+import com.ias.alarm.model.ContainerFactory
+import com.ias.alarm.persistance.PersistingContainerFactory
+import com.ias.alarm.stores.InMemoryRxDataStoreFactory.Companion.inMemoryRxDataStore
 
 /**
  * Created by Yuriy on 25.06.2017.

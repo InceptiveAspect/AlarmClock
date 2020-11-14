@@ -1,4 +1,4 @@
-package com.better.alarm.test;
+package com.ias.alarm.test;
 
 import android.content.res.Configuration;
 import android.content.res.Resources;

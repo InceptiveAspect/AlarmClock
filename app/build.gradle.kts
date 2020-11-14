@@ -65,10 +65,10 @@ android {
     defaultConfig {
         versionCode = "$version".replace(".", "").toInt()
         versionName = "$version"
-        applicationId = "com.better.alarm"
+        applicationId = "com.ias.alarm"
         minSdkVersion(15)
         targetSdkVersion(29)
-        testApplicationId = "com.better.alarm.test"
+        testApplicationId = "com.ias.alarm.test"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled = true
     }
@@ -87,7 +87,7 @@ android {
     flavorDimensions("default")
     productFlavors {
         create("develop") {
-            applicationId = "com.better.alarm"
+            applicationId = "com.ias.alarm"
         }
         create("premium") {
             applicationId = "com.premium.alarm"
