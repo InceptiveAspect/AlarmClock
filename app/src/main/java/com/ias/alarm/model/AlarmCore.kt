@@ -42,6 +42,7 @@ data class Snooze(val hour: Int?, val minute: Int?) : Event()
 data class Change(val value: AlarmValue) : Event()
 object PrealarmDurationChanged : Event()
 object Dismiss : Event()
+object GroupDismiss : Event()
 object RequestSkip : Event()
 object Fired : Event()
 object Enable : Event()
@@ -245,6 +246,9 @@ class AlarmCore(
             log.warning { "$this is in DisabledState" }
         }
 
+        override fun onGroupDismiss() {
+            log.warning { "$this is in DisabledState" }
+        }
         override fun onDisable() {
             log.warning { "$this is in DisabledState" }
         }
@@ -309,6 +313,10 @@ class AlarmCore(
         }
 
         override fun onDismiss() {
+            stateMachine.transitionTo(rescheduleTransition)
+        }
+
+        override fun onGroupDismiss() {
             stateMachine.transitionTo(rescheduleTransition)
         }
 
@@ -716,6 +724,7 @@ class AlarmCore(
                 is Disable -> onDisable()
                 is Snooze -> onSnooze(event)
                 is Dismiss -> onDismiss()
+                is GroupDismiss -> onGroupDismiss()
                 is Change -> onChange(event.value)
                 is Fired -> onFired()
                 is PrealarmDurationChanged -> onPreAlarmDurationChanged()
@@ -736,6 +745,7 @@ class AlarmCore(
         protected open fun onDisable() = markNotHandled()
         protected open fun onSnooze(snooze: Snooze) = markNotHandled()
         protected open fun onDismiss() = markNotHandled()
+        protected open fun onGroupDismiss() = markNotHandled()
         protected open fun onChange(alarmValue: AlarmValue) = markNotHandled()
         protected open fun onFired() = markNotHandled()
         protected open fun onInexactFired() = markNotHandled()
@@ -793,6 +803,9 @@ class AlarmCore(
 
     override fun dismiss() {
         stateMachine.sendEvent(Dismiss)
+    }
+    override fun groupDismiss() {
+        stateMachine.sendEvent(GroupDismiss)
     }
 
     override fun delete() {
