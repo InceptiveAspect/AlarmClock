@@ -3,8 +3,8 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f5af63df137746bcb45e43b4f2a78217)](https://www.codacy.com/app/yuriy.kulikov.87/AlarmClock?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=yuriykulikov/AlarmClock&amp;utm_campaign=Badge_Grade)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-# Simple alarm clock
-Simple Alarm Clock is an alarm clock for Android smartphones and tablets that brings pure alarm experience to you by combining powerful features and clean interface.
+# LP Alarm Clock
+LP Alarm Clock is an alarm clock for Android smartphones and tablets that brings pure alarm experience to you by combining powerful features and clean interface.
 The interface of our Alarm clock is designed to be simple, intuitive and efficient. By removing what is not essential, we make access to everything you need even easier.
 
 # Features

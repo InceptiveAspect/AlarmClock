@@ -83,7 +83,7 @@
     <string name="preference_category_ui">Interfaccia</string>
     <string name="preference_list_row_layout_title">Dimensione</string>
     <string name="menu_about_title">A proposito del programma</string>
-    <string name="dialog_about_content">Simple alarm clock è un programma open source che combina un\'interfaccia semplice e le funzionalità necessarie
+    <string name="dialog_about_content">LP Alarm Clock è un programma open source che combina un\'interfaccia semplice e le funzionalità necessarie
 
        \n\nConsiglio:
        \n· La dimensione degli allarmi può essere modificata nelle impostazioni
@@ -111,7 +111,7 @@
        \n\n<font color="#FF0000">Se hai provato tutti i metodi sopra, ma nulla aiuta</font>, per favore scrivici un messaggio nel prossimo campo. Faremo del nostro meglio per aiutarti.
    </string>
     <string name="dialog_say_thanks_title">Di \'grazie</string>
-    <string name="dialog_say_thanks_review_message">Grazie per aver dedicato del tempo a ringraziarci! "Simple Alarm Clock" è un progetto non profit open source. Non useremo mai annunci pubblicitari né raccogliamo dati utente a scopo di lucro. Tuttavia, siamo estremamente felici se ti piace il nostro lavoro. Il modo migliore per valutare il nostro lavoro è scrivere una recensione positiva. Puoi anche porre una domanda o lasciare una richiesta.</string>
+    <string name="dialog_say_thanks_review_message">Grazie per aver dedicato del tempo a ringraziarci! "LP Alarm Clock" è un progetto non profit open source. Non useremo mai annunci pubblicitari né raccogliamo dati utente a scopo di lucro. Tuttavia, siamo estremamente felici se ti piace il nostro lavoro. Il modo migliore per valutare il nostro lavoro è scrivere una recensione positiva. Puoi anche porre una domanda o lasciare una richiesta.</string>
     <string name="dialog_say_thanks_premium_text">Se ti piace davvero la nostra applicazione, puoi prendere in considerazione l\'acquisto di una versione premium. Sembra fantastico, vero? :)</string>
     <string name="dialog_say_thanks_donate_message">Un\'altra grande opportunità per supportare l\'app è quella di comprarmi una tazza di caffè o un biscotto! :) Puoi farlo usando una delle seguenti opzioni.</string>
     <string name="dialog_say_thanks_premium_text_as_button"><a href="https://play.google.com/store/apps/details?id=com.premium.alarm">Versione premium

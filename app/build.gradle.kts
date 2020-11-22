@@ -66,7 +66,7 @@ android {
         versionCode = "$version".replace(".", "").toInt()
         versionName = "$version"
         applicationId = "com.ias.alarm"
-        minSdkVersion(15)
+        minSdkVersion(21)
         targetSdkVersion(29)
         testApplicationId = "com.ias.alarm.test"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

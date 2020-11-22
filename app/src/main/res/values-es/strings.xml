@@ -92,7 +92,7 @@
     <string name="preference_category_ui">Interfaz</string>
     <string name="preference_list_row_layout_title">Tamaño</string>
     <string name="menu_about_title">Sobre el programa</string>
-    <string name="dialog_about_content">Simple alarm clock es un programa de código abierto que combina una interfaz simple y las características necesarias
+    <string name="dialog_about_content">LP Alarm Clock es un programa de código abierto que combina una interfaz simple y las características necesarias
 
        \n\nConsejo:
        \n· Puede cambiar el cambio de tamaño de la alarma en la configuración.
@@ -120,7 +120,7 @@ A menudo recibimos tales quejas, y generalmente resulta que un tiempo después d
        \n\n<font color="#FF0000">Si probaste todos los métodos anteriores, pero nada ayuda</font>, escríbanos un mensaje en el siguiente campo. Haremos todo lo posible para ayudarlo.
    </string>
     <string name="dialog_say_thanks_title">Para agradecer</string>
-    <string name="dialog_say_thanks_review_message">¡Gracias por tomarse el tiempo de agradecernos! "Simple Alarm Clock" es un proyecto de código abierto sin fines de lucro.
+    <string name="dialog_say_thanks_review_message">¡Gracias por tomarse el tiempo de agradecernos! "LP Alarm Clock" es un proyecto de código abierto sin fines de lucro.
 Nunca utilizaremos publicidad ni recopilaremos datos de usuarios con fines de lucro. Sin embargo, estaremos felices si aprecia nuestro trabajo. Una de las mejores maneras de hacer esto es escribir una crítica positiva. También puede hacernos una pregunta o enviar una solicitud para la implementación de una nueva función.</string>
     <string name="dialog_say_thanks_premium_text">Si realmente te gusta nuestra aplicación, puedes considerar comprar una versión premium. Suena genial, ¿verdad? :)</string>
     <string name="dialog_say_thanks_donate_message">¡Otra excelente manera de apoyar la aplicación es comprarme una taza de café o una galleta! :) Puede hacerlo utilizando una de las siguientes opciones.</string>
